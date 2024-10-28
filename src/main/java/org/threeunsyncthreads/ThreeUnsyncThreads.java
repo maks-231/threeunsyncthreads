@@ -5,7 +5,7 @@ public class ThreeUnsyncThreads {
 
     PrintingStringThread thread1 = new PrintingStringThread(10, "Hello world from thread 1!", new PrintingString());
     PrintingStringThread thread2 = new PrintingStringThread(8, "Hello world from thread 2!", new PrintingString());
-    PrintingStringThread thread3 = new PrintingStringThread(5, "Hello world from thread 2!", new PrintingString());
+    PrintingStringThread thread3 = new PrintingStringThread(5, "Hello world from thread 3!", new PrintingString());
 
     thread2.start();
     thread1.start();
